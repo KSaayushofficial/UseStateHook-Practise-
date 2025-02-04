@@ -24,7 +24,8 @@ Always ensure immutability when working with objects or arrays.
 State persists across renders – Component re-renders when the state updates.
 State updates should be immutable – Always create new copies of objects/arrays instead of modifying existing ones.
 Multiple state variables can be used – Helps manage different types of data efficiently.
-🎯 When to Use useState
+
+🎯 When to Use useState:
 ✅ When a component needs to track dynamic values (e.g., form inputs, counters, toggles).
 ✅ When a component doesn’t require complex state logic (otherwise, consider useReducer).
 ✅ When working inside functional components instead of class components.
